@@ -17,7 +17,7 @@ public class UserController {
     @RequestMapping("/findAll")
     public List<User>findAll(){
         List<User> all = userService.findAll();
-        System.out.println("这是8082");
+        System.out.println("启动了");
         return all;
     }
     @RequestMapping(value = "/findOne",method = RequestMethod.POST)
